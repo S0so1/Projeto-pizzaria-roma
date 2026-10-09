@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 SECRET_KEY = os.getenv('AriS26076!.')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'localhost']
 
 """
 Django settings for config project.
