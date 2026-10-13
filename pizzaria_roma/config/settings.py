@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 load_dotenv()
-SECRET_KEY = os.getenv('AriS26076!.')
+SECRET_KEY = os.getenv('ga5bbo(4ajb-+eryoyck4p9^w1kqw)ai%wwytx47x$=#gx165f')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'localhost']
 
